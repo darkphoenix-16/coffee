@@ -270,3 +270,28 @@ li:hover{
     background-color: #488db2;
     color: #ffffff;
 }
+
+@media (max-width: 1200px){
+.top-bar{
+    width: 61%;
+}
+.logo{
+    width: 100%;
+}
+.nav{
+     display: flex;
+    gap: 39px;
+    align-items: center;
+    padding: 10px;
+
+}
+}
+
+@media (max-width: 992px) {
+    .top-bar{
+        width: 73.2%;
+    }
+    .nav{
+        width: 100%;
+    }
+}
