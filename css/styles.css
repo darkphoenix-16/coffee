@@ -39,12 +39,12 @@ ul {
     font-weight: 700;
 }
 
-li a{
+li a {
     text-decoration: none;
     color: black;
 }
 
-li a:hover{
+li a:hover {
     color: #118acb;
 }
 
@@ -201,9 +201,9 @@ li a:hover{
     font-family: "CentraBold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-.another-collection div h2:hover{
+.another-collection div h2:hover {
     color: #69bfede2;
-    
+
 }
 
 /* footer */
@@ -248,14 +248,18 @@ li a:hover{
 
 .email {
     border: 1px solid white;
+    
 }
 
 .email input {
     border: none;
     font-size: 17px;
     background-color: #118acb;
-    padding: 14px;
+    padding: 12px;
     width: 500px;
+}
+.email input:focus{
+    outline: none;
 }
 
 ::placeholder {
@@ -266,7 +270,7 @@ li a:hover{
     color: #118acb;
     font-size: 15px;
     font-weight: 700;
-    padding: 20px 20px;
+    padding: 15px 15px;
     border: none;
 }
 
@@ -276,27 +280,30 @@ li a:hover{
     color: #ffffff;
 }
 
-@media (max-width: 1200px){
-.top-bar{
-    width: 61%;
-}
-.logo{
-    width: 100%;
-}
-.nav{
-     display: flex;
-    gap: 39px;
-    align-items: center;
-    padding: 10px;
+@media (max-width: 1200px) {
+    .top-bar {
+        width: 61%;
+    }
 
-}
+    .logo {
+        width: 100%;
+    }
+
+    .nav {
+        display: flex;
+        gap: 39px;
+        align-items: center;
+        padding: 10px;
+
+    }
 }
 
 @media (max-width: 992px) {
-    .top-bar{
+    .top-bar {
         width: 73.2%;
     }
-    .nav{
+
+    .nav {
         width: 100%;
     }
 }
