@@ -201,10 +201,12 @@ li a:hover {
     border: none;
     font-size: 17px;
     background-color: #118acb;
-    padding: 14px;
+    padding: 12px;
     width: 500px;
 }
-
+.email input:focus{
+    outline: none;
+}
 ::placeholder {
     color: rgba(240, 255, 255, 0.742);
 }
