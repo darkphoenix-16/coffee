@@ -62,6 +62,47 @@ li a:hover {
     border: 1px solid black;
 }
 
+.font{
+    color: #2c2a29; 
+    font-weight: bold;
+    font-size: 3.75rem;
+     margin-left: 18%;
+     padding: 35px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* all coffee  */
+.all{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.all-text h3{
+color: #2c2a29;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 20px;
+}
+.all-text p{
+color: #2c2a29;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 17px;
+font-weight: 700;
+}
+.all-image{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.all-image-text img{
+    width:330px;
+}
+.all-image-text p{
+    color: #2c2a29;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 /* footer */
 .foot {
     background-color: #118acb;
